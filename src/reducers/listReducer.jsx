@@ -64,6 +64,20 @@ const ListReducer = (state = initialState, action) => {
 
       return newState;
 
+    case CONSTANT.EDIT_CARD_TEXT: {
+      const { cardId, newText } = action.payload;
+
+      newState = state.map((list) => ({
+        ...list,
+        cards: list.cards.map((card) => (card.id === cardId ? { ...card, text: newText } : card)),
+      }));
+
+      // Save the updated state to local storage
+      saveDataToLocalStorage('lists', newState);
+
+      return newState;
+    }
+
     case CONSTANT.DRAG_HAPPENED: {
       const {
         droppableIdStart,

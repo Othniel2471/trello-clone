@@ -48,6 +48,7 @@ This project is built with React.
 - Users can create a list.
 - Users can add new tasks to a list.
 - Users can use drag and drop to reorder list.
+- Users can edit task.
 - Changes persist in browser after refresh.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
