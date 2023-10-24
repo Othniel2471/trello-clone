@@ -4,6 +4,7 @@ import { DragDropContext } from 'react-beautiful-dnd';
 import TrelloList from './TrelloList';
 import TrelloActionButton from './TrelloActionButton';
 import { sort } from '../actions/listActions';
+import Navbar from './Navbar';
 
 const styles = {
   listsContainer: {
@@ -33,9 +34,9 @@ function App({ lists, dispatch }) {
 
   return (
     <>
+      <Navbar />
       <DragDropContext onDragEnd={onDragEnd}>
         <div className="app">
-          <h2>App</h2>
           <div style={styles.listsContainer}>
             {lists.map((list) => (
               <TrelloList

@@ -48,6 +48,7 @@ This project is built with React.
 - Users can create a list.
 - Users can add new tasks to a list.
 - Users can use drag and drop to reorder list.
+- Users can edit task.
 - Changes persist in browser after refresh.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -58,7 +59,7 @@ To get a local copy up and running, follow these steps.
 
 1. Clone this repository
    run
-   `https://github.com/Othniel2471/book-store.git`
+   `https://github.com/Othniel2471/trello-clone.git`
 
 2. Open the project in a text editor
 3. Open your terminal and run `npm install`
@@ -74,7 +75,7 @@ In order to run this project you need:
 
 2. Clone this repository
 
-   > Run this command `https://github.com/Othniel2471/book-store.git`
+   > Run this command `https://github.com/Othniel2471/trello-clone.git`
 
 3. Follow the instructions in the Get Started section above
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -130,7 +131,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 - [ ] Mobile version of the project
 - [ ] Adding dark mode
-- [ ] Use and state management of Asynchronous code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +138,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Othniel2471/book-store/issues). Open a New Issue and I'll look intently into your suggestions.
+Feel free to check the [issues page](https://github.com/Othniel2471/trello-clone/issues). Open a New Issue and I'll look intently into your suggestions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +151,7 @@ and ideas
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank **microverse** for the definition of the project requirements and provision of this template
+I would like to thank **HappyMonk** for the definition of the project requirements and giving me a short.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
