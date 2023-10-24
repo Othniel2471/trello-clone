@@ -8,4 +8,5 @@
   background: #2879bf;
   height: 100vh;
   padding: 10px;
+  overflow-x: auto;
 }
